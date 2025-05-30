@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТехноДом - Кир жуучу машиналар</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            color: #333;
+        }
+
+        header, footer {
+            background-color: #1a1a2e;
+            color: white;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            padding: 8px 16px;
+            background-color: #0f3460;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #e94560;
+            color: white;
+            border-color: #e94560;
+            transform: scale(1.1);
+        }
+
+        main h2 {
+            margin-top: 30px;
+            color: #0f3460;
+        }
+
+        .cont {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .tovar1 {
+            background-color: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .tovar1:hover {
+            transform: translateY(-5px);
+        }
+
+        .tovar1 img {
+            width: 90%;
+            height: auto;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        .tovar1 h3 {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #0f3460;
+        }
+
+        .tovar1 p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        button {
+            background-color: #0f3460;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #e94560;
+        }
+
+        footer {
+            margin-top: 40px;
+        }
+
+        @media (max-width: 1000px) {
+            .cont {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .cont {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                gap: 10px;
+                font-size: 16px;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ТехноДом</h1>
+        <nav>
+            <a href="#">Башкы бет</a>
+            <a href="#">Товарлар</a>
+            <a href="#">Стиралка</a>
+            <a href="#">Муздаткыч</a>
+            <a href="#">Микротолкун</a>
+            <a href="#">Байланыш</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Кир жуучу машина сиздин кызматыңызда</h2>
+        <section class="cont">
+            <div class="tovar1">
+                <img src="../img/стир1.jpg" alt="Кир жуучу машина Hauser">
+                <h3>Hauser</h3>
+                <p>Баасы: 33 000 сом</p>
+                <button>Сатып алуу</button>
+            </div>
+            <div class="tovar1">
+                <img src="../img/стир3.png" alt="Кир жуучу машина Samsung">
+                <h3>Samsung RT53K6530SL/WT</h3>
+                <p>Баасы: 45 000 сом</p>
+                <button>Сатып алуу</button>
+            </div>
+            <div class="tovar1">
+                <img src="../img/стир4.png" alt="Кир жуучу машина Samsung">
+                <h3>Samsung RT53K6530SL/WT</h3>
+                <p>Баасы: 34 990 сом</p>
+                <button>Сатып алуу</button>
+            </div>
+            <div class="tovar1">
+                <img src="../img/стир3.png" alt="Кир жуучу машина Samsung">
+                <h3>Samsung RT53K6530SL/WT</h3>
+                <p>Баасы: 45 000 сом</p>
+                <button>Сатып алуу</button>
+            </div>
+        </section>
+
+        <section class="cont">
+            <div class="tovar1">
+                <img src="../img/стир1.jpg" alt="Кир жуучу машина Hauser">
+                <h3>Hauser</h3>
+                <p>Баасы: 33 000 сом</p>
+                <button>Сатып алуу</button>
+            </div>
+            <div class="tovar1">
+                <img src="../img/стир3.png" alt="Кир жуучу машина Samsung">
+                <h3>Samsung RT53K6530SL/WT</h3>
+                <p>Баасы: 45 000 сом</p>
+                <button>Сатып алуу</button>
+            </div>
+            <div class="tovar1">
+                <img src="../img/стир4.png" alt="Кир жуучу машина Samsung">
+                <h3>Samsung RT53K6530SL/WT</h3>
+                <p>Баасы: 85 000 сом</p>
+                <button>Сатып алуу</button>
+            </div>
+            <div class="tovar1">
+                <img src="../img/стир3.png" alt="Кир жуучу машина Samsung">
+                <h3>Samsung RT53K6530SL/WT</h3>
+                <p>Баасы: 85 000 сом</p>
+                <button>Сатып алуу</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Ар дайым биз менен болуңуз</p>
+    </footer>
+</body>
+</html>
